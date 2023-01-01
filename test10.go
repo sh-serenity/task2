@@ -111,7 +111,7 @@ func main() {
     My.ctime = time.Now()
     My.restarts = 0;
     var storeState string
-    var cmCreate bool
+//    var cmCreate bool
     cmCreate = false
     for true {
 	time.Sleep(30000 * time.Millisecond)
@@ -147,7 +147,7 @@ func main() {
     {
         now := time.Now()
         storeState = now.String()
-        cmCreate = true
+//        cmCreate = true
     }
 }
 }
