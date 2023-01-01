@@ -112,7 +112,7 @@ func main() {
     My.restarts = 0;
     var storeState string
 //    var cmCreate bool
-    cmCreate = false
+//    cmCreate = false
     for true {
 	time.Sleep(30000 * time.Millisecond)
 	dep, err := clientset.AppsV1().Deployments("default").Get(context.Background(), "demo", metav1.GetOptions{})	
